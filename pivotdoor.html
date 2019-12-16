@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pivot door</title>
+</head>
+<body>
+    <style>
+    /* LINE */
+    .line {
+        position:fixed;
+        right:1px;
+        bottom:15px;
+        z-index:999;
+        display:inline-block;
+    }
+    .line img{
+        width:70%;
+    }
+    
+    .fix-btn{
+        position: fixed;
+        bottom: 10px; 
+        right: 5px;
+        padding: 6px 10px;
+        z-index: 999;
+    }
+
+    .line_btn{
+        width: 120px;
+        height: 88px;
+    }
+
+    	/* カテゴリ */
+    .mens {
+		margin-top: 50px;
+	}
+    
+    .menslogo_img{
+        width: 95px;
+        height: 30px;
+    }
+    
+    .pcmenslogo_img{
+        width: 127px;
+        height: 40px;
+    }
+    
+	.logo_img{
+		width: 121px;
+		height: 30px;
+	}
+
+	.pclogo_img{
+		width: 162px;
+		height: 40px;
+	}
+
+    .mens_category{
+		display: flex;
+		float:left;
+		padding: 2.5% 2.5%;
+		justify-content: space-evenly;
+	}
+
+	.mens_style{
+		overflow-x: scroll;
+        overflow-y: visible;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.category_btn{
+		margin: 5px;
+	}
+
+	.category_img{
+		height: 120px;
+		width: 120px;
+	}
+
+    /* パソコンで見たときは"pc"のclassがついた画像が表示される */
+	.pc { display: block !important;}
+	.sp { display: none !important; padding-top:10px;}
+	/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+	@media only screen and (max-width: 750px) {
+	.pc { display: none !important; }
+	.sp { display: block !important; }
+	.category_img{height: 75px; width: 75px;}
+	.mens{padding-left: 20px;}
+	}
+    </style>
+
+
+<!-- line pop -->
+    <div class="fix-btn">
+        <a href="https://line.me/R/ti/p/@pivotdoor">
+        <img src="https://basefile.akamaized.net/pivotdoor/5ddce0696de67/Fqamsroc.png" class="line_btn">
+        </a>
+    </div>
+
+	<!--カテゴリ-->
+    <div class="mens">
+        <p class="sp"><img class="menslogo_img" src="https://basefile.akamaized.net/pivotdoor/5df471be2122d/mens_logo.png" alt="MENS"></p>											
+        <p class="pc"><img class="pcmenslogo_img" src="https://basefile.akamaized.net/pivotdoor/5df471be2122d/mens_logo.png" alt="MENS"></p>
+        <div class="mens_style">
+        <ul class="mens_category">
+        <li><a href="https://pivotdoor.thebase.in/categories/1676055" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df47272e1e4f/ranking.png" alt="ranking"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1891793" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df4729d2cc06/sale.png" alt="slae"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1646133" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df472579a436/outer.png" alt="outer"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1646134" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df472fab3bef/tops.png" alt="tops"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1646135" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df4714fde482/bottoms.png" alt="bottoms"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1646136" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df472de2ea5c/shose.png" alt="shoes"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1731773" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df472c270b6d/setup.png" alt="set-up"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1743648" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df471e26db2b/other.png" alt="other"></a></li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="mens">
+        <p class="sp"><img class="logo_img" src="https://basefile.akamaized.net/pivotdoor/5df482d149e1e/ladies_logo.png" alt="LADIES"></p>
+        <p class="pc"><img class="pclogo_img" src="https://basefile.akamaized.net/pivotdoor/5df482d149e1e/ladies_logo.png" alt="LADIES"></p>
+        <div class="mens_style">
+        <ul class="mens_category">
+        <li><a href="https://pivotdoor.thebase.in/categories/1676055" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df47265ba3ad/ranking_pink.png" alt="ranking"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1891793" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df472853090a/sale_pink.png" alt="sale"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1646137" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df472282a721/outer_pink.png" alt="outer"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1646139" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df472ed3ed2c/tops_pink.png" alt="tops"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1646140" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df4710a39add/bottoms_pink.png" alt="bottoms"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1646141" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df472d0290f5/shose_pink.png" alt="shoes"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1652677" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df472acb93d4/setup_pink.png" alt="set-up"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1646307" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df4716b21239/dress_pink.png" alt="dress"></a></li>
+        <li><a href="https://pivotdoor.thebase.in/categories/1743648" class="category_btn"><img class="category_img" src="https://basefile.akamaized.net/pivotdoor/5df471cd6df4d/other_pink.png" alt="other"></a></li>
+        </ul>
+        </div>
+    </div>
+
+
+</body>
+</html>
